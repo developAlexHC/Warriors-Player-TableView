@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FAB19CC61FBDC88B00DF9FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CC51FBDC88B00DF9FEB /* AppDelegate.swift */; };
-		FAB19CC81FBDC88B00DF9FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CC71FBDC88B00DF9FEB /* ViewController.swift */; };
 		FAB19CCB1FBDC88B00DF9FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB19CC91FBDC88B00DF9FEB /* Main.storyboard */; };
 		FAB19CCD1FBDC88B00DF9FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB19CCC1FBDC88B00DF9FEB /* Assets.xcassets */; };
 		FAB19CD01FBDC88B00DF9FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB19CCE1FBDC88B00DF9FEB /* LaunchScreen.storyboard */; };
 		FAB19CDB1FBDC88B00DF9FEB /* playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CDA1FBDC88B00DF9FEB /* playerTests.swift */; };
 		FAB19CE61FBDC88B00DF9FEB /* playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CE51FBDC88B00DF9FEB /* playerUITests.swift */; };
+		FAB19CF41FC2B0EF00DF9FEB /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CF31FC2B0EF00DF9FEB /* player.swift */; };
+		FAB19CF61FC2B19800DF9FEB /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CF51FC2B19800DF9FEB /* PlayersTableViewController.swift */; };
+		FAB19CF81FC2BE7300DF9FEB /* PlayerDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB19CF71FC2BE7300DF9FEB /* PlayerDetailTableViewController.swift */; };
+		FAB4B2261FC43A6B00E9EE22 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4B2251FC43A6B00E9EE22 /* EditTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		FAB19CC21FBDC88B00DF9FEB /* player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB19CC51FBDC88B00DF9FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAB19CC71FBDC88B00DF9FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB19CCA1FBDC88B00DF9FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB19CCC1FBDC88B00DF9FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB19CCF1FBDC88B00DF9FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		FAB19CE11FBDC88B00DF9FEB /* playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB19CE51FBDC88B00DF9FEB /* playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerUITests.swift; sourceTree = "<group>"; };
 		FAB19CE71FBDC88B00DF9FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB19CF31FC2B0EF00DF9FEB /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		FAB19CF51FC2B19800DF9FEB /* PlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
+		FAB19CF71FC2BE7300DF9FEB /* PlayerDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailTableViewController.swift; sourceTree = "<group>"; };
+		FAB4B2251FC43A6B00E9EE22 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				FAB19CC41FBDC88B00DF9FEB /* player */,
-				FAB19CD91FBDC88B00DF9FEB /* playerTests */,
 				FAB19CE41FBDC88B00DF9FEB /* playerUITests */,
 				FAB19CC31FBDC88B00DF9FEB /* Products */,
 			);
@@ -98,11 +103,15 @@
 			isa = PBXGroup;
 			children = (
 				FAB19CC51FBDC88B00DF9FEB /* AppDelegate.swift */,
-				FAB19CC71FBDC88B00DF9FEB /* ViewController.swift */,
 				FAB19CC91FBDC88B00DF9FEB /* Main.storyboard */,
+				FAB19CF51FC2B19800DF9FEB /* PlayersTableViewController.swift */,
+				FAB19CF71FC2BE7300DF9FEB /* PlayerDetailTableViewController.swift */,
+				FAB4B2251FC43A6B00E9EE22 /* EditTableViewController.swift */,
+				FAB19CF31FC2B0EF00DF9FEB /* player.swift */,
 				FAB19CCC1FBDC88B00DF9FEB /* Assets.xcassets */,
 				FAB19CCE1FBDC88B00DF9FEB /* LaunchScreen.storyboard */,
 				FAB19CD11FBDC88B00DF9FEB /* Info.plist */,
+				FAB19CD91FBDC88B00DF9FEB /* playerTests */,
 			);
 			path = player;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB19CC81FBDC88B00DF9FEB /* ViewController.swift in Sources */,
+				FAB19CF61FC2B19800DF9FEB /* PlayersTableViewController.swift in Sources */,
+				FAB19CF41FC2B0EF00DF9FEB /* player.swift in Sources */,
 				FAB19CC61FBDC88B00DF9FEB /* AppDelegate.swift in Sources */,
+				FAB4B2261FC43A6B00E9EE22 /* EditTableViewController.swift in Sources */,
+				FAB19CF81FC2BE7300DF9FEB /* PlayerDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28KY3QU74P;
 				INFOPLIST_FILE = player/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PrimeNumber.player;
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28KY3QU74P;
 				INFOPLIST_FILE = player/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PrimeNumber.player;
